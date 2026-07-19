@@ -20,8 +20,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="assets\textures\Checkerboard.png">
-      <Filter>资源文件</Filter>
-    </Image>
+    <None Include="assets\shaders\Texture.glsl" />
   </ItemGroup>
 </Project>

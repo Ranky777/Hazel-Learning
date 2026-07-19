@@ -5,6 +5,8 @@
 #include "Hazel/Layer.h"
 #include "Hazel/Log.h"
 
+#include "Hazel/OrthographicCameraController.h"
+
 #include "Hazel/Core/Timestep.h"
 
 #include "Hazel/ImGui/ImGuiLayer.h"
