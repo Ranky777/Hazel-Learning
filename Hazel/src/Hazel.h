@@ -1,11 +1,11 @@
 #pragma once
 
 // For use of Hazel by applications
-#include "Hazel/Application.h"
-#include "Hazel/Layer.h"
-#include "Hazel/Log.h"
+#include "Hazel/Core/Application.h"
+#include "Hazel/Core/Layer.h"
+#include "Hazel/Core/Log.h"
 
-#include "Hazel/OrthographicCameraController.h"
+#include "Hazel/Renderer/OrthographicCameraController.h"
 
 #include "Hazel/Core/Timestep.h"
 
@@ -13,6 +13,7 @@
 
 // ---Renderer------------------------
 #include "Hazel/Renderer/Renderer.h"
+#include "Hazel/Renderer/Renderer2D.h"
 #include "Hazel/Renderer/RenderCommand.h"
 #include "Hazel/Renderer/Texture.h"
 
@@ -23,8 +24,3 @@
 
 #include "Hazel/Renderer/OrthographicCamera.h"
 // -----------------------------------
-
-
-// ----Entry Point-----------------
-#include "Hazel/EntryPoint.h"
-// --------------------------------
